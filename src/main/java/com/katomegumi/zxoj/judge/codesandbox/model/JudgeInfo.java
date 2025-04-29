@@ -1,4 +1,4 @@
-package com.katomegumi.zxoj.model.dto.questionsubmit;
+package com.katomegumi.zxoj.judge.codesandbox.model;
 
 import lombok.Data;
 

@@ -9,11 +9,9 @@ import com.katomegumi.zxoj.judge.codesandbox.model.ExecuteCodeRequest;
 import com.katomegumi.zxoj.judge.codesandbox.model.ExecuteCodeResponse;
 import com.katomegumi.zxoj.judge.strategy.JudgeContext;
 import com.katomegumi.zxoj.model.dto.question.JudgeCase;
-import com.katomegumi.zxoj.model.dto.question.JudgeConfig;
-import com.katomegumi.zxoj.model.dto.questionsubmit.JudgeInfo;
+import com.katomegumi.zxoj.judge.codesandbox.model.JudgeInfo;
 import com.katomegumi.zxoj.model.entity.Question;
 import com.katomegumi.zxoj.model.entity.QuestionSubmit;
-import com.katomegumi.zxoj.model.enums.JudgeInfoMessageEnum;
 import com.katomegumi.zxoj.model.enums.QuestionSubmitStatusEnum;
 import com.katomegumi.zxoj.service.QuestionService;
 import com.katomegumi.zxoj.service.QuestionSubmitService;
@@ -97,7 +95,10 @@ public class JudgeServiceImpl implements JudgeService {
         judgeContext.setJudgeCaseList(judgeCaseList);
         judgeContext.setQuestion(question);
         judgeContext.setQuestionSubmit(questionSubmit);
+
+        //进行判题结果 根据语言 使用不同的判题逻辑
         JudgeInfo judgeInfo = judgeManager.doJudge(judgeContext);
+
         //6修改 判题结果
         questionSubmitUpdate = new QuestionSubmit();
         questionSubmitUpdate.setId(questionSubmitId);

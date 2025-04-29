@@ -1,7 +1,6 @@
 package com.katomegumi.zxoj.judge.codesandbox.model;
 
 
-import com.katomegumi.zxoj.model.dto.questionsubmit.JudgeInfo;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

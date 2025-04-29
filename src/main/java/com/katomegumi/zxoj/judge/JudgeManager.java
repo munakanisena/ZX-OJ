@@ -4,7 +4,7 @@ import com.katomegumi.zxoj.judge.strategy.DefaultJudgeStrategy;
 import com.katomegumi.zxoj.judge.strategy.JavaJudgeStrategy;
 import com.katomegumi.zxoj.judge.strategy.JudgeContext;
 import com.katomegumi.zxoj.judge.strategy.JudgeStrategy;
-import com.katomegumi.zxoj.model.dto.questionsubmit.JudgeInfo;
+import com.katomegumi.zxoj.judge.codesandbox.model.JudgeInfo;
 import org.springframework.stereotype.Service;
 
 /**

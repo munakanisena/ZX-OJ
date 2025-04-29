@@ -3,7 +3,7 @@ package com.katomegumi.zxoj.judge.codesandbox.impl;
 import com.katomegumi.zxoj.judge.codesandbox.CodeSandbox;
 import com.katomegumi.zxoj.judge.codesandbox.model.ExecuteCodeRequest;
 import com.katomegumi.zxoj.judge.codesandbox.model.ExecuteCodeResponse;
-import com.katomegumi.zxoj.model.dto.questionsubmit.JudgeInfo;
+import com.katomegumi.zxoj.judge.codesandbox.model.JudgeInfo;
 import com.katomegumi.zxoj.model.enums.JudgeInfoMessageEnum;
 import com.katomegumi.zxoj.model.enums.QuestionSubmitStatusEnum;
 

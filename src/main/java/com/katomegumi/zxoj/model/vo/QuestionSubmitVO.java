@@ -1,7 +1,7 @@
 package com.katomegumi.zxoj.model.vo;
 
 import cn.hutool.json.JSONUtil;
-import com.katomegumi.zxoj.model.dto.questionsubmit.JudgeInfo;
+import com.katomegumi.zxoj.judge.codesandbox.model.JudgeInfo;
 import com.katomegumi.zxoj.model.entity.QuestionSubmit;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;

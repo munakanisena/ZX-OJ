@@ -1,6 +1,6 @@
 package com.katomegumi.zxoj.judge.strategy;
 
-import com.katomegumi.zxoj.model.dto.questionsubmit.JudgeInfo;
+import com.katomegumi.zxoj.judge.codesandbox.model.JudgeInfo;
 
 
 public interface JudgeStrategy {

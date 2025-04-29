@@ -3,7 +3,7 @@ package com.katomegumi.zxoj.judge.strategy;
 import cn.hutool.json.JSONUtil;
 import com.katomegumi.zxoj.model.dto.question.JudgeCase;
 import com.katomegumi.zxoj.model.dto.question.JudgeConfig;
-import com.katomegumi.zxoj.model.dto.questionsubmit.JudgeInfo;
+import com.katomegumi.zxoj.judge.codesandbox.model.JudgeInfo;
 import com.katomegumi.zxoj.model.entity.Question;
 import com.katomegumi.zxoj.model.enums.JudgeInfoMessageEnum;
 
